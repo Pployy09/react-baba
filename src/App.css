@@ -43,6 +43,6 @@ body {
 
 @media screen and (max-width: 414px) {
   .container {
-    padding: 50px;
+    padding: 35px;
   }
 }
