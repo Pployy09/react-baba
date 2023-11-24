@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&family=Mali:wght@500&family=Noto+Sans+Thai&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Kodchasan", sans-serif;
+}
+
+body {
+  background: #014e98;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  margin: 30px auto;
+  width: 450px;
+}
+
+.horizontal-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e20024;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.horizontal-menu li {
+  display: inline-block;
+}
+
+.horizontal-menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  margin: 0 25px;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 35px;
+  }
+}
